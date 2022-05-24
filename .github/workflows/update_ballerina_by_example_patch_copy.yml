@@ -1,6 +1,7 @@
 name: Create PR for new Swan Lake BBEs pages on distribution repo changes
 
 on:
+  push:
   workflow_dispatch:
 
 jobs:
@@ -48,4 +49,4 @@ jobs:
         uses: actions/upload-artifact@v3.1.0
         with:
           name: BBE Files
-          path: ./learn/by-example.zip
+          path: ./learn/by-example/hello-world.html
