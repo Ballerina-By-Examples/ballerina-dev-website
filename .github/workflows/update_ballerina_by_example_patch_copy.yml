@@ -44,8 +44,6 @@ jobs:
           cp ../ballerina-distribution/examples/index.json ../_data/all-bbes.json
           cp -r ../ballerina-distribution/examples .
 
-          go run ballerinaByExample/tools/generate.go "examples" "swan-lake" "by-example" "true" "true" "true"
-
       - name: Archive BBE Files
         uses: actions/upload-artifact@v3.1.0
         with:
