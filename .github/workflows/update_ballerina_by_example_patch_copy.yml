@@ -1,7 +1,6 @@
 name: Create PR for new Swan Lake BBEs pages on distribution repo changes
 
-on:
-  push:
+on: 
   workflow_dispatch:
 
 jobs:
@@ -11,52 +10,44 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.WEBSITE_TOKEN }}
 
     steps:
-      - name: Install Go
-        uses: actions/setup-go@v1
-        with:
-          go-version: 1.12
-        env:
-          GOPATH: /home/runner/work/ballerina-release
+    - name: Install Go
+      uses: actions/setup-go@v1
+      with:
+        go-version: 1.12
+      env:
+        GOPATH: /home/runner/work/ballerina-release
+    
+    - name: Install Go module blackfriday
+      run: go get github.com/russross/blackfriday
 
-      - name: Install Go module blackfriday
-        run: go get github.com/russross/blackfriday
+    - name: Install jq for json manipulation
+      run: sudo apt-get install jq
 
-      - name: Install jq for json manipulation
-        run: sudo apt-get install jq
-
-      - name: Checkout code
-        uses: actions/checkout@v2
-        with:
+    - name: Checkout code
+      uses: actions/checkout@v2
+      with:
           ref: master
 
-      - name: Clone ballerina-release
-        run: git clone https://ballerina-bot:$GITHUB_TOKEN@github.com/ballerina-platform/ballerina-release.git
+    - name: Clone ballerina-release
+      run: git clone https://ballerina-bot:$GITHUB_TOKEN@github.com/ballerina-platform/ballerina-release.git
 
-      - name: Clone ballerina-distribution
-        run: |
-          git clone https://ballerina-bot:$GITHUB_TOKEN@github.com/ballerina-platform/ballerina-distribution.git
-          cd ballerina-distribution
-          git checkout -b 2201.0.x origin/2201.0.x
-          cd ..
+    - name: Clone ballerina-distribution
+      run: |
+        git clone https://ballerina-bot:$GITHUB_TOKEN@github.com/ballerina-platform/ballerina-distribution.git
+        cd ballerina-distribution
+        git checkout -b 2201.0.x origin/2201.0.x
+        cd ..
 
-      - name: Generate BBEs
-        run: |
-          cd ballerina-release
-          cp ../ballerina-distribution/examples/index.json ../_data/all-bbes.json
-          cp -r ../ballerina-distribution/examples .
+    - name: Generate BBEs
+      run: |
+        cd ballerina-release
+        cp ../ballerina-distribution/examples/index.json ../_data/all-bbes.json
+        cp -r ../ballerina-distribution/examples .
 
-      - name: Archive BBE Files
-        uses: actions/upload-artifact@v3.1.0
-        with:
-          name: bbe-files
-          path: ./learn/by-example/hello-world.html
+        go run ballerinaByExample/tools/generate.go "examples" "swan-lake" "by-example" "true" "true" "true"
 
-      - name: Download archived files
-        uses: actions/download-artifact@v3.0.0
-        id: download
-        with:
-          name: bbe-files
-          path: path/to/artifacts
-
-      - name: Echo download path
-        run: echo ${{ steps.download.outputs.download-path }}    
+    - name: Archive BBE HTML files
+      uses: actions/upload-artifact@v3.1.0
+      with:
+        name: bbe-files
+        path: ./learn/by-example
