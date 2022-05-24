@@ -50,3 +50,9 @@ jobs:
         with:
           name: BBE Files
           path: ./learn/by-example/hello-world.html
+
+      - name: Download archived files
+        uses: actions/download-artifact@v3.0.0
+        with:
+          name: BBE Files
+          path: ~/Downloads
