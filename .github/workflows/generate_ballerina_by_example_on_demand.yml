@@ -1,4 +1,4 @@
-name: Create PR for new Swan Lake BBEs pages on distribution repo changes
+name: Genearate BBE files on demand
 
 on: 
   workflow_dispatch:
@@ -26,7 +26,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
       with:
-          ref: dev
+          ref: master
 
     - name: Clone ballerina-release
       run: git clone https://$GITHUB_TOKEN@github.com/Ballerina-By-Examples/ballerina-release.git
