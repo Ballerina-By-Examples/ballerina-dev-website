@@ -29,14 +29,11 @@ jobs:
           ref: master
 
     - name: Clone ballerina-release
-      run: git clone https://$GITHUB_TOKEN@github.com/Ballerina-By-Examples/ballerina-release.git
+      run: git clone -b upstream-master https://$GITHUB_TOKEN@github.com/Ballerina-By-Examples/ballerina-release.git
 
     - name: Clone ballerina-distribution
       run: |
-        git clone https://$GITHUB_TOKEN@github.com/Ballerina-By-Examples/ballerina-distribution.git
-        cd ballerina-distribution
-        git checkout upstream-master
-        cd ..
+        git clone -b upstream-master https://$GITHUB_TOKEN@github.com/Ballerina-By-Examples/ballerina-distribution.git
 
     - name: Generate BBEs
       run: |
