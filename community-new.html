@@ -8,7 +8,7 @@ redirect_from:
 - /community/slack/
 
 ---
-
+<script src="/community/event-date.js"></script>
 <style>
 
  h2 {
@@ -139,6 +139,8 @@ font-size: 10px;
     padding-bottom:130px; 
     display:block;
     scroll-margin-top: 100px !important;
+    z-index: -999;
+    position: absolute;
 }
 .card-title{color:#20b6b0;margin-top:0px;line-height: 30px;}
 .card-title:hover{color:#464646 !important}
@@ -466,7 +468,7 @@ td.cEventDateContainer{
       <p>
         Want to get hand-picked content and the latest news on Ballerina delivered directly to your inbox? Then subscribe to our monthly newsletter today!
       </p>
-      <iframe src="https://resources.wso2.com/l/142131/2022-01-05/b3x14k" width="100%" type="text/html" frameborder="0" allowTransparency="true" style=" width: 100%;border: 0;height: 140px;" class="mobileViewNewsletter"></iframe>
+      <iframe src="https://resources.wso2.com/l/142131/2022-01-05/b3x14k" width="100%" type="text/html" frameborder="0" allowTransparency="true" style="width: 100%;border: 0;height: 160px;z-index: 7;position: sticky;" class="mobileViewNewsletter"></iframe>
       <!-- <p>Click <a class="getStartLinks" target="_blank" href="/community/ballerina-newsletter" >here</a> to read the latest and all past Ballerina newsletter issues.</p> -->
     
     </div>
@@ -585,36 +587,36 @@ td.cEventDateContainer{
         </table> -->
 
         <table class="cEventTable cConferencesList" style="width:100% !important;">
-            <tr class="event-expiry"  data-expiry="March 24, 2022 19:00:00">	
+            <tr class="bEvent1" style="display: none;" >	
                 <td class="cEventDateContainer cEventDateContainer1">	
-                   <p class="cEventDate1 cEventDateNum dateDisplay" style="margin-bottom: 15px;">May 25, 2022</p>	
-                   <p class="cEventDate1 dateDisplay" style="margin-bottom: 15px">Wed., 6.30 p.m. PDT</p>	
-                   <p class="cEventLocation" style="text-align: right;">Online</p>	
+                   <p class="cEventDate1 cEventDateNum dateDisplay" style="margin-bottom: 15px;">Aug 11, 2022</p>	
+                   <p class="cEventDate1 dateDisplay" style="margin-bottom: 15px">Thurs., 3.00 p.m. PDT</p>	
+                   <p class="cEventLocation" style="text-align: right;">Seattle, USA</p>	
                 </td>	
                 <td class="cEventDetail" id="eventDetails" >	
-                   <a target="_blank" href="https://www.meetup.com/sfjava/events/284669431">	
-                      <p class="cEventName" style="margin-top: -1px;font-size: 18px;">Meetup</p>	
+                   <a target="_blank" href="https://vslive.com/events/redmond-2022/home.aspx">	
+                      <p class="cEventName" style="margin-top: -1px;font-size: 18px;">Visual Studio LIVE!</p>	
                    </a>	
-                   <h5 style="margin-bottom: 18px;">Ballerina: A Language to Develop, Consume and Combine Network Services</h5>		
-                   <a style="color: #20b6b0 ;font-weight:400;font-size: 16px;" href="https://twitter.com/sameerajayasoma">Sameera Jayasoma</a>, Senior Director, WSO2
+                   <h5 style="margin-bottom: 18px;">VH19 Busy Developer's Guide to Ballerina</h5>		
+                   <a style="color: #20b6b0 ;font-weight:400;font-size: 16px;" href="https://twitter.com/tedneward">Ted Neward</a>, Co-founder of Solidify
                 </td>	
-                <td class="cEventURL"><a class="cEventRegistration" href="https://www.meetup.com/sfjava/events/284669431" target="_blank" style="text-align: center;">More info</a></td>	
+                <td class="cEventURL"><a class="cEventRegistration" href="https://vslive.com/Events/Redmond-2022/Sessions/Thursday/VH19-Busy-Developers-Guide-to-Ballerina.aspx" target="_blank" style="text-align: center;">More info</a></td>	
             </tr>
-            <tr class="event-expiry"  data-expiry="March 24, 2022 19:00:00">	
-                <td class="cEventDateContainer cEventDateContainer1">	
-                   <p class="cEventDate1 cEventDateNum dateDisplay" style="margin-bottom: 15px;">June 8, 2022</p>	
-                   <p class="cEventDate1 dateDisplay" style="margin-bottom: 15px">Wed., 6.10 a.m. EDT</p>	
-                   <p class="cEventLocation" style="text-align: right;">Online</p>	
-                </td>	
-                <td class="cEventDetail" id="eventDetails" >	
-                   <a target="_blank" href="https://www.womentech.net/speaker/Anupama/Pathirage/70302">	
-                      <p class="cEventName" style="margin-top: -1px;font-size: 18px;">Women in Tech Global Conference</p>	
-                   </a>	
-                   <h5 style="margin-bottom: 18px;">Ballerina: Cloud-Native Middleware as a Programming Language</h5>		
-                   <a style="color: #20b6b0 ;font-weight:400;font-size: 16px;" href="https://twitter.com/anupama_pathira">Anupama Pathirage</a>, Director of Engineering, WSO2
-                </td>	
-                <td class="cEventURL"><a class="cEventRegistration" href="https://www.womentech.net/speaker/Anupama/Pathirage/70302" target="_blank" style="text-align: center;">More info</a></td>	
-            </tr>
+                <tr class="bEvent2"  style="display: none;">	
+            <td class="cEventDateContainer cEventDateContainer1" style="border-bottom: 0 !important;">	
+               <p class="cEventDate1 cEventDateNum dateDisplay" style="margin-bottom: 15px;">Sep 7, 2022</p>	
+               <p class="cEventDate1 dateDisplay" style="margin-bottom: 15px">Wed., 4.00 p.m. CDT</p>	
+               <p class="cEventLocation" style="text-align: right;">Austin, TX</p>	
+            </td>	
+            <td class="cEventDetail" id="eventDetails" style="border-bottom: 0 !important;">	
+               <a target="_blank" href="https://www.developerweek.com/global/conference/cloud/">	
+                  <p class="cEventName" style="margin-top: -1px;font-size: 18px;">DeveloperWeek Cloud 2022</p>	
+               </a>
+               <h5 style="margin-bottom: 18px;">Ballerina: Programming Language Designed for Cloud-Native Applications</h5>		
+               <a style="color: #20b6b0 ;font-weight:400;font-size: 16px;" target="_blank" href="https://twitter.com/sameerajayasoma">Sameera Jayasoma</a>, Senior Director, WSO2
+            </td>	
+            <td class="cEventURL" style="border-bottom: 0 !important;"><a class="cEventRegistration" href="https://www.developerweek.com/global/conference/cloud/schedule/" target="_blank" style="text-align: center;">More info</a></td>	
+        </tr>
             <!-- <tr class="event-expiry"  data-expiry="February 5, 2021 12:00:00">	
                 <td class="cEventDateContainer cEventDateContainer1">	
                    <p class="cEventDate1 cEventDateNum dateDisplay" style="margin-bottom: 15px;">March 24, 2022</p>	
@@ -648,14 +650,11 @@ td.cEventDateContainer{
            
         </table>
 
-        <!-- <div class="col-lg-12 col-md-12 col-sm-12 eventBanner">
-            No upcoming events for this month. For details on our upcoming Monthly Tech Talks, please see  <a href="/community/monthly-tech-talk/" target="_blank" style="color: #20b6b0; text-decoration: none; text-align: right;font-weight: 400;font-size: 18px; ">Monthly Tech Talk</a>
-        </div> -->
-        <!-- <div class="col-lg-12 col-md-12 col-sm-12 eventBanner">
+<!-- <div class="col-sm-12 col-md-12 cColCOntent">
+         <div class="col-lg-12 col-md-12 col-sm-12 eventBanner">
             No upcoming events for this month. 
-        </div> -->
-    </div> 
-
+         </div>
+      </div> -->
 </section>
 
 <section  style="padding-bottom: 45px;">
@@ -835,45 +834,41 @@ td.cEventDateContainer{
      
 
         <div class="col-lg-4 col-md-6 col-sm-12 card">
-          
-                     <h4 id="running-ballerina-programs-in-the-cloud" class="gTitle1">Contribute to the source code
+            <span class="bookMarkOnPage" id="contribute-to-the-source-code"></span>
+                     <h4 id="contribute-to-the-source-code-title" class="gTitle1">Contribute to the source code
            </h4>
                 <p>Make Ballerina better by contributing to its source code. Read the <a class="getStartLinks" target="_blank" href="https://github.com/ballerina-platform/ballerina-lang/blob/master/CONTRIBUTING.md" >contribution guide</a> and  get started. Happy contributing!</p>
            
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 card">
-           
-                     <h4 id="running-ballerina-programs-in-the-cloud" class="gTitle1">Contribute to Ballerina Central
+            <span class="bookMarkOnPage" id="contribute-to-ballerina-central"></span>
+                     <h4 id="contribute-to-ballerina-central-title" class="gTitle1">Contribute to Ballerina Central
            </h4>
                 <p>Let the whole community benefit from your work by <a class="getStartLinks" target="_blank" href="https://ballerina.io/learn/publishing-packages-to-ballerina-central/" >creating and publishing</a> your own module to <a class="getStartLinks" target="_blank" href="https://central.ballerina.io/" >Ballerina Central</a>. </p>
            
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 card" style="margin-right:0px !important;">
-            
-                     <h4 id="running-ballerina-programs-in-the-cloud" class="gTitle1">Report issues
+            <span class="bookMarkOnPage" id="report-issues"></span>
+                     <h4 id="report-issues-title" class="gTitle1">Report issues
            </h4>
                 <p><a id="reportissues" class="getStartLinks">Report issues</a> in the respective GitHub repositories of the areas and components.</p>
         </div>
        
     </div>
     <div class="row" >
-        <!-- <div class="col-lg-4 col-md-6 col-sm-12 card">
-           
-                <h4 id="running-ballerina-programs-in-the-cloud" class="gTitle1">Contribute to the resource library</h4>
-                <p><a  id="myBtn" class="getStartLinks" >Submit</a> an article, blog, or video to our community-driven collection of resources.</p>
-           
-        </div> -->
         <div class="col-lg-4 col-md-6 col-sm-12 card">
+            <span class="bookMarkOnPage" id="submit-a-use-case"></span>
             
-                     <h4 id="running-ballerina-programs-in-the-cloud" class="gTitle1">Submit a use case 
+                     <h4 id="submit-a-use-case-title" class="gTitle1">Submit a use case 
            </h4>
                 <p><a id="submitUseCase" class="getStartLinks">Tell us</a> how you're using Ballerina in your project and be a part of our community stories. </p>
            
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 card" style="margin-right:0px !important;">
+        <div class="col-lg-4 col-md-6 col-sm-12 card">
+            <span class="bookMarkOnPage" id="host-a-ballerina-event"></span>
           
-                     <h4 id="running-ballerina-programs-in-the-cloud" class="gTitle1">Host a Ballerina event</h4>
-                <p>Want to talk about Ballerina at your local tech meetup? Reach us at <a class="getStartLinks" href="mailto:contact@ballerina.io">contact@ballerina.io</a>, and we will help you with any presentation content.</p>
+            <h4 id="host-a-ballerina-event-title" class="gTitle1">Host a Ballerina event</h4>
+       <p>Want to talk about Ballerina at your local tech meetup? Reach us at <a class="getStartLinks" href="mailto:contact@ballerina.io">contact@ballerina.io</a>, and we will help you with any presentation content.</p>
            
         </div>
     </div>
@@ -1133,7 +1128,7 @@ document.onscroll = function() {
     }
     table.cEventTable.docutils td.cEventDateContainer, table.cEventTable.docutils td.cEventDetail, table.cEventTable.docutils td.cEventURL {
      border-bottom: none!important;}
-     .mobileViewNewsletter{height: 190px !important;}
+    .mobileViewNewsletter{height: 268px !important;}
     .mobileViewTechTalk{height: 190px !important;}
     h4.card-title {height: unset;}
     .card{max-width: none;}

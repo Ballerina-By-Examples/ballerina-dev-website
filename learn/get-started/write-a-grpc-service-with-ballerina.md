@@ -20,9 +20,9 @@ redirect_from:
 
 ## Set up the prerequisites
 
-To run this guide, you need the following prerequisites:
+To complete this tutorial, you need:
 
-1. [Ballerina 2202.0.0 (Swan Lake)](https://ballerina.io/learn/installing-ballerina/setting-up-ballerina/) or greater
+1. [Ballerina 2202.0.0 (Swan Lake)](/learn/install-ballerina/set-up-ballerina/) or greater
 2. A text editor
   >**Tip:** Preferably, [Visual Studio Code](https://code.visualstudio.com/) with the [Ballerina extension](https://marketplace.visualstudio.com/items?itemName=WSO2.ballerina) installed.
 3. A command terminal
@@ -77,11 +77,11 @@ Now, let’s implement the gRPC service and client in the Ballerina language.
 
 ## Implement the gRPC service
 
-Ballerina uses projects to group code. You need to create a Ballerina project, generate the service code in the project, and write the business logic.
+Ballerina uses packages to group code. You need to create a Ballerina package, generate the service code in the package, and write the business logic.
 
-### Create the service project
+### Create the service package
 
-In the terminal, navigate to the `grpc_sample` directory, and execute the command below to create the Ballerina project for the gRPC service implementation.
+In the terminal, navigate to the `grpc_sample` directory, and execute the command below to create the Ballerina package for the gRPC service implementation.
 
 > **Note:** For more information on Ballerina packages, see [Organize Ballerina code](/learn/organize-ballerina-code/).
 
@@ -165,7 +165,7 @@ To add the business logic to the remote method (in this case, you only need to u
 
 ## Run the gRPC service 
 
-In the terminal, navigate to the `greeter_service` directory, and execute the command below to run the service project
+In the terminal, navigate to the `greeter_service` directory, and execute the command below to run the service package
 
 ```bash
 $ bal run
@@ -184,13 +184,13 @@ Now, you completed the server-side implementation and it is running on port 9090
 
 ## Implement the gRPC client
 
-Similar to the service, the client application also starts with creating a new Ballerina project. Once created, you can generate the client code and update the code to call the remote methods exposed by the service.
+Similar to the service, the client application also starts with creating a new Ballerina package. Once created, you can generate the client code and update the code to call the remote methods exposed by the service.
 
-### Create the client project
+### Create the client package
 
-In a new tab of the terminal, navigate to the `grpc_sample` directory, and execute the command below to create the Ballerina project for the gRPC client implementation:
+In a new tab of the terminal, navigate to the `grpc_sample` directory, and execute the command below to create the Ballerina package for the gRPC client implementation:
 
-> **Note:** For more information on Ballerina projects, see [Organize Ballerina code](/learn/organize-ballerina-code/).
+> **Note:** For more information on Ballerina packages, see [Organize Ballerina code](/learn/organize-ballerina-code/).
 
 ```bash
 $ bal new greeter_client
@@ -260,9 +260,9 @@ In this code:
 - The client declaration creates a connection to the remote server which is listening on port 9090. The generated client has remote methods that can use to talk to a remote server.
 - The `main` function contains the statements that call the `sayHello` remote function and prints the response to the console.
 
-## Run the client
+## Run the gRPC client
 
-In the terminal, navigate to the `greeter_client` directory, and execute the command below to run the service project
+In the terminal, navigate to the `greeter_client` directory, and execute the command below to run the service package
 
 ```bash
 $ bal run
@@ -282,6 +282,6 @@ Response : Hello Ballerina
 ## Learn more
 
 To learn more about gRPC support in Ballerina, see the following:
-- [`grpc` library documentation](https://lib.ballerina.io/ballerina/grpc/latest)
+- [`grpc` module documentation](https://lib.ballerina.io/ballerina/grpc/latest)
 - [gRPC CLI tooling guide](/learn/cli-documentation/grpc/)
 - [Simple RPC](/learn/by-example/grpc-simple.html)
