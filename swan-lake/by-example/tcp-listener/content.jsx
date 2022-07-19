@@ -88,10 +88,7 @@ export default function TcpListener() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/tcp/latest">
-          TCP module
-        </a>
-        .
+        <a href="https://lib.ballerina.io/ballerina/tcp/latest">TCP module</a>.
       </p>
 
       <Row

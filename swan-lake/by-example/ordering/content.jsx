@@ -111,7 +111,7 @@ export default function Ordering() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=91d9aea8fad37f7b8af7b81787fb18f0&file=ordering.bal",
+                "https://play.ballerina.io/?gist=b166f48f80dfda695b6cece9e30db88f&file=ordering.bal",
                 "_blank"
               );
             }}

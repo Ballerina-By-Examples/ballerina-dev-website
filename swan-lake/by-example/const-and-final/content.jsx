@@ -87,7 +87,7 @@ export default function ConstAndFinal() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=422794dbc2f9be31816163beac0f60a7&file=const_and_final.bal",
+                "https://play.ballerina.io/?gist=b25a64dfed0da9601a98607f5b6c133f&file=const_and_final.bal",
                 "_blank"
               );
             }}

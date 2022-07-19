@@ -102,7 +102,7 @@ export default function NatsBasicPubSub() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerinax/nats/latest">
+        <a href="https://lib.ballerina.io/ballerinax/nats/latest">
           NATS module
         </a>
         .

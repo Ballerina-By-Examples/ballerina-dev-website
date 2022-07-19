@@ -115,7 +115,7 @@ export default function SequenceDiagrams() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=1068aabc14bb871bbd0c19a81ee98ff0&file=sequence_diagrams.bal",
+                "https://play.ballerina.io/?gist=379b134fb128d41f1557fce73d3994f6&file=sequence_diagrams.bal",
                 "_blank"
               );
             }}

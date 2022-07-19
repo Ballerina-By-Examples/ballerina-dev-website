@@ -76,7 +76,7 @@ export default function TypeDefinitions() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=6cfc6031f0c61f2703fc6e0a9ff6c436&file=type_definitions.bal",
+                "https://play.ballerina.io/?gist=439892a4ccdd1850b1f90bfe0572cb89&file=type_definitions.bal",
                 "_blank"
               );
             }}

@@ -92,7 +92,7 @@ export default function QueryExpressions() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=7a2d09f1fffbd4e7523e4866718910b6&file=query_expressions.bal",
+                "https://play.ballerina.io/?gist=3d9ecb5fa5ffefacfbd53fd1d6f072d7&file=query_expressions.bal",
                 "_blank"
               );
             }}

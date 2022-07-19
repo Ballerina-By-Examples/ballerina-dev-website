@@ -26,7 +26,7 @@ service HelloWorld {
 // A gRPC client can be configured to communicate through SSL/TLS as well.
 // To secure a client using SSL/TLS, the client needs to be configured with
 // a certificate file of the listener.
-// The [\`grpc:ClientSecureSocket\`](https://docs.central.ballerina.io/ballerina/grpc/latest/records/ClientSecureSocket) record
+// The [\`grpc:ClientSecureSocket\`](https://lib.ballerina.io/ballerina/grpc/latest/records/ClientSecureSocket) record
 // provides the SSL-related configurations of the client.
 HelloWorldClient securedEP = check new("https://localhost:9090",
     secureSocket = {
@@ -84,7 +84,7 @@ export default function GrpcClientSslTls() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/grpc/latest/">
+        <a href="https://lib.ballerina.io/ballerina/grpc/latest/">
           gRPC module
         </a>
         .

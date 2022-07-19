@@ -97,7 +97,7 @@ export default function ReadonlyAndIsolated() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=51b4ff8520a16587805e251d0c709f74&file=readonly_and_isolated.bal",
+                "https://play.ballerina.io/?gist=c8d3cde292fb8eb2b3bb8473c602e4d8&file=readonly_and_isolated.bal",
                 "_blank"
               );
             }}

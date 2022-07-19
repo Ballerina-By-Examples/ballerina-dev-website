@@ -77,7 +77,7 @@ export default function ProgramsAndModules() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=c6915c048fcada03747fabdd3fc57485&file=programs_and_modules.bal",
+                "https://play.ballerina.io/?gist=d6b1d09e65d18b99d47cdd5e7941f637&file=programs_and_modules.bal",
                 "_blank"
               );
             }}

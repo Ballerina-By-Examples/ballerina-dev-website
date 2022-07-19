@@ -104,7 +104,7 @@ export default function Strands() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=e1c8571e068ef4c6463f4ffe38f369f3&file=strands.bal",
+                "https://play.ballerina.io/?gist=44e076740295768d105d304c0dd4b088&file=strands.bal",
                 "_blank"
               );
             }}

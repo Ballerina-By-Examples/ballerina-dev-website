@@ -122,7 +122,7 @@ export default function CheckSemantics() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=664d521308fd93492b04035d93ccef2f&file=check_semantics.bal",
+                "https://play.ballerina.io/?gist=f6b961479035dbe98b0ffe95b484654d&file=check_semantics.bal",
                 "_blank"
               );
             }}

@@ -93,7 +93,7 @@ export default function UuidGeneration() {
 
       <p>
         For more information on the underlying module, see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/uuid/latest/">
+        <a href="https://lib.ballerina.io/ballerina/uuid/latest/">
           UUID module
         </a>
         .
@@ -117,7 +117,7 @@ export default function UuidGeneration() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=d32e06161796e022dfdd2317fb749c8b&file=uuid_generation.bal",
+                "https://play.ballerina.io/?gist=adf726587b3b0f7fad7016e3e92288e5&file=uuid_generation.bal",
                 "_blank"
               );
             }}

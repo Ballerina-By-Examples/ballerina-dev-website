@@ -107,7 +107,7 @@ export default function MatchStatementWithMaps() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=bccdc39cc54fb1fef83ae75aaf1bcf58&file=match_statement_with_maps.bal",
+                "https://play.ballerina.io/?gist=6decc54b577e5e9ff00ca08a4cc6033c&file=match_statement_with_maps.bal",
                 "_blank"
               );
             }}

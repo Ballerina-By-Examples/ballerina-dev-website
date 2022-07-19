@@ -91,7 +91,7 @@ export default function SendEmail() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/email/latest/">
+        <a href="https://lib.ballerina.io/ballerina/email/latest/">
           Email module
         </a>
         .

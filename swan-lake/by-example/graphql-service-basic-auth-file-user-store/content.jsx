@@ -117,7 +117,7 @@ export default function GraphqlServiceBasicAuthFileUserStore() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/auth/latest/">
+        <a href="https://lib.ballerina.io/ballerina/auth/latest/">
           Auth module
         </a>
         .

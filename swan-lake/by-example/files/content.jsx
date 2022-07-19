@@ -87,7 +87,7 @@ export default function Files() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/file/latest/">
+        <a href="https://lib.ballerina.io/ballerina/file/latest/">
           File module
         </a>
         .
@@ -111,7 +111,7 @@ export default function Files() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=252283b07842291d0f6744ab51f72bb9&file=files.bal",
+                "https://play.ballerina.io/?gist=312f8a7410f3e411d0b0da669fdd6c30&file=files.bal",
                 "_blank"
               );
             }}

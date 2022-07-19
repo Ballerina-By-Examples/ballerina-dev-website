@@ -102,7 +102,7 @@ export default function DecimalType() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=1316c9e707f6f2d79c548e0c4ae68658&file=decimal_type.bal",
+                "https://play.ballerina.io/?gist=8d7d9b2f84f449c07a193b2086c95977&file=decimal_type.bal",
                 "_blank"
               );
             }}

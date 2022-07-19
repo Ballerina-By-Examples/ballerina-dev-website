@@ -80,7 +80,7 @@ export default function Documentation() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=8cc4b03aa7f27aa5caee7d59bf612950&file=documentation.bal",
+                "https://play.ballerina.io/?gist=4b71b8a1dd09ef0a4ad95395820f46bc&file=documentation.bal",
                 "_blank"
               );
             }}

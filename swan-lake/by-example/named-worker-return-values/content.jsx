@@ -105,7 +105,7 @@ export default function NamedWorkerReturnValues() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=f97908a086443d430547c556c8a58f8c&file=named_worker_return_values.bal",
+                "https://play.ballerina.io/?gist=ef53df35351888662b9878fe61a636e9&file=named_worker_return_values.bal",
                 "_blank"
               );
             }}

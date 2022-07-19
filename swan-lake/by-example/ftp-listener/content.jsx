@@ -96,10 +96,7 @@ export default function FtpListener() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/ftp/latest/">
-          FTP module
-        </a>
-        .
+        <a href="https://lib.ballerina.io/ballerina/ftp/latest/">FTP module</a>.
       </p>
 
       <Row

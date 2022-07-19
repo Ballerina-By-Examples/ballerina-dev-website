@@ -85,7 +85,7 @@ export default function ConsumingServices() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=f6f6b05b01bd2ded528faf95b263c594&file=consuming_services.bal",
+                "https://play.ballerina.io/?gist=09d43a516ecc978c00bfc90841acdee2&file=consuming_services.bal",
                 "_blank"
               );
             }}

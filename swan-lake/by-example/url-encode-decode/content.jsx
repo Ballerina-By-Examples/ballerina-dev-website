@@ -61,10 +61,7 @@ export default function UrlEncodeDecode() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/url/latest/">
-          URL module
-        </a>
-        .
+        <a href="https://lib.ballerina.io/ballerina/url/latest/">URL module</a>.
       </p>
 
       <Row
@@ -85,7 +82,7 @@ export default function UrlEncodeDecode() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=0ee11da96f699d170c1557c700d3262f&file=url_encode_decode.bal",
+                "https://play.ballerina.io/?gist=14b2222a4dcd05cfce27a2fec149b5d5&file=url_encode_decode.bal",
                 "_blank"
               );
             }}

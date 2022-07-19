@@ -87,7 +87,7 @@ export default function Covariance() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=2f73db8b59eb1f88af863585758592f6&file=covariance.bal",
+                "https://play.ballerina.io/?gist=8fd1ebe9013e89d1ea675f14a79bc775&file=covariance.bal",
                 "_blank"
               );
             }}

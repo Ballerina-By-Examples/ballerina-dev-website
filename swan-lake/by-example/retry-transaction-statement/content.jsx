@@ -109,7 +109,7 @@ export default function RetryTransactionStatement() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=7569911db20deb73ef2fef407970989d&file=retry_transaction_statement.bal",
+                "https://play.ballerina.io/?gist=db6ddbb5e1662ecc4888e1298d041541&file=retry_transaction_statement.bal",
                 "_blank"
               );
             }}

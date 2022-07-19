@@ -84,7 +84,7 @@ export default function DirectoryListener() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/file/latest/">
+        <a href="https://lib.ballerina.io/ballerina/file/latest/">
           File module
         </a>
         .

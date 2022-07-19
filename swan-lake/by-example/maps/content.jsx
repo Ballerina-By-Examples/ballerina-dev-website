@@ -104,7 +104,7 @@ export default function Maps() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=563654feca6245df0c29d085e6899196&file=maps.bal",
+                "https://play.ballerina.io/?gist=556639790dcc6383b6c8ff86ef184203&file=maps.bal",
                 "_blank"
               );
             }}

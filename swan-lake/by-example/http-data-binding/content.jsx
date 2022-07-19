@@ -23,7 +23,7 @@ type Student record {
 
 service /hello on new http:Listener(9090) {
 
-    // The \`Student\` parameter in [Payload annotation](https://docs.central.ballerina.io/ballerina/http/latest/records/Payload)
+    // The \`Student\` parameter in [Payload annotation](https://lib.ballerina.io/ballerina/http/latest/records/Payload)
     // represents the entity body of the inbound request.
     resource function post student(@http:Payload Student student)
             returns json {
@@ -84,7 +84,7 @@ export default function HttpDataBinding() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/http/latest/">
+        <a href="https://lib.ballerina.io/ballerina/http/latest/">
           HTTP module
         </a>
         .

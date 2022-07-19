@@ -129,7 +129,7 @@ export default function JdbcQueryRowOperation() {
       <p>
         For a sample configuration and more information on the underlying
         module, see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerinax/java.jdbc/latest/">
+        <a href="https://lib.ballerina.io/ballerinax/java.jdbc/latest/">
           JDBC module
         </a>{" "}
         .&lt;br&gt;&lt;br&gt;

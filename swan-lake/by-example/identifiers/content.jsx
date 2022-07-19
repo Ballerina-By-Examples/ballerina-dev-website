@@ -75,7 +75,7 @@ export default function Identifiers() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=bf2a82ba3c234e89171fc67a3f94ed15&file=identifiers.bal",
+                "https://play.ballerina.io/?gist=774a6b82a93064beafc9e7f6a39d1232&file=identifiers.bal",
                 "_blank"
               );
             }}

@@ -94,7 +94,7 @@ export default function AlternateWait() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=94e1ec5624cbc99395ce9a897ed3d47b&file=alternate_wait.bal",
+                "https://play.ballerina.io/?gist=6af49fc82f49abbd7d973a95a94977db&file=alternate_wait.bal",
                 "_blank"
               );
             }}

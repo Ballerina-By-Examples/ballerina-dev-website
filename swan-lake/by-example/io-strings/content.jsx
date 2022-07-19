@@ -80,10 +80,7 @@ export default function IoStrings() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/io/latest/">
-          IO module
-        </a>
-        .
+        <a href="https://lib.ballerina.io/ballerina/io/latest/">IO module</a>.
       </p>
 
       <Row
@@ -104,7 +101,7 @@ export default function IoStrings() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=ea69f83cf6c2144ee60068d743a8207e&file=io_strings.bal",
+                "https://play.ballerina.io/?gist=065d32b00514f2f879d8a146fa102e7f&file=io_strings.bal",
                 "_blank"
               );
             }}

@@ -89,7 +89,7 @@ export default function Booleans() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=59762bac3597a61502a767373a5ed2dc&file=booleans.bal",
+                "https://play.ballerina.io/?gist=44e8db9dda7df42bfacbdcdf78e32773&file=booleans.bal",
                 "_blank"
               );
             }}

@@ -60,10 +60,7 @@ export default function IoXml() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/io/latest/">
-          IO module
-        </a>
-        .
+        <a href="https://lib.ballerina.io/ballerina/io/latest/">IO module</a>.
       </p>
 
       <Row
@@ -84,7 +81,7 @@ export default function IoXml() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=b85fab77cd1e75477418500cd749e812&file=io_xml.bal",
+                "https://play.ballerina.io/?gist=f5d1015b8d9ee6be33c543b379b5c269&file=io_xml.bal",
                 "_blank"
               );
             }}

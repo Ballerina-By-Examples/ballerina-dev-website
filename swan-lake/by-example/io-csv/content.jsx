@@ -73,10 +73,7 @@ export default function IoCsv() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/io/latest/">
-          IO module
-        </a>
-        .
+        <a href="https://lib.ballerina.io/ballerina/io/latest/">IO module</a>.
       </p>
 
       <Row
@@ -97,7 +94,7 @@ export default function IoCsv() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=f5baa41ff7d83a5ce1fc158b90cfcbb8&file=io_csv.bal",
+                "https://play.ballerina.io/?gist=a8062869a51e61a86c31d8a4b54ef9e2&file=io_csv.bal",
                 "_blank"
               );
             }}

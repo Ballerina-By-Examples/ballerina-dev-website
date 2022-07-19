@@ -114,7 +114,7 @@ export default function TransactionalQualifier() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=7954722608e4de3a04fa7321637bc0d3&file=transactional_qualifier.bal",
+                "https://play.ballerina.io/?gist=1c1de5b1d7e353a3104d5f0e8440b54b&file=transactional_qualifier.bal",
                 "_blank"
               );
             }}

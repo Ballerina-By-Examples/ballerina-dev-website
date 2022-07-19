@@ -89,7 +89,7 @@ export default function MultipleKeyFields() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=d845d0bde00c5d8adb6e7ca9eb9e0464&file=multiple_key_fields.bal",
+                "https://play.ballerina.io/?gist=2880c6fefa3e2d4d0ed25618b3077b90&file=multiple_key_fields.bal",
                 "_blank"
               );
             }}

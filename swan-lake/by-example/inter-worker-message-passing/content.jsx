@@ -108,7 +108,7 @@ export default function InterWorkerMessagePassing() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=b47b30b3ced1340420e7a674eb64cde3&file=inter_worker_message_passing.bal",
+                "https://play.ballerina.io/?gist=ed34926d9e0d3528e1b4b592399168af&file=inter_worker_message_passing.bal",
                 "_blank"
               );
             }}

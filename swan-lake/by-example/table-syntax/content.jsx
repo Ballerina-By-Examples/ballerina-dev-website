@@ -143,7 +143,7 @@ export default function TableSyntax() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=550d50c3477231e3dc43c6c22c52d8e2&file=table_syntax.bal",
+                "https://play.ballerina.io/?gist=855f7d7ff31868967a832990b21c8e67&file=table_syntax.bal",
                 "_blank"
               );
             }}

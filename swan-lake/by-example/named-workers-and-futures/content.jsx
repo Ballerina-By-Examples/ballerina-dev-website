@@ -105,7 +105,7 @@ export default function NamedWorkersAndFutures() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=b7dec56872e7e4d18dd54a39468dc3cc&file=named_workers_and_futures.bal",
+                "https://play.ballerina.io/?gist=8dc17d3f60cf8e4437c208429512fec1&file=named_workers_and_futures.bal",
                 "_blank"
               );
             }}

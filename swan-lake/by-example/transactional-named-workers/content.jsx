@@ -96,7 +96,7 @@ export default function TransactionalNamedWorkers() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=31a3bced2e939e60ddbb8b6d466aaa3c&file=transactional_named_workers.bal",
+                "https://play.ballerina.io/?gist=df347897bc8f4ab381de363e0c4ffbee&file=transactional_named_workers.bal",
                 "_blank"
               );
             }}

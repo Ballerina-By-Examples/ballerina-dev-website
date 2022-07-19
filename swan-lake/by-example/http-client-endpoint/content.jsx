@@ -78,7 +78,7 @@ export default function HttpClientEndpoint() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/http/latest/">
+        <a href="https://lib.ballerina.io/ballerina/http/latest/">
           HTTP module
         </a>
         .
@@ -102,7 +102,7 @@ export default function HttpClientEndpoint() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=95a0c90956665ab8ef525b24cf214610&file=http_client_endpoint.bal",
+                "https://play.ballerina.io/?gist=115b6b5f577f62c0796846f8c93c0daf&file=http_client_endpoint.bal",
                 "_blank"
               );
             }}

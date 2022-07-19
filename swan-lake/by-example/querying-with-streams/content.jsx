@@ -150,7 +150,7 @@ export default function QueryingWithStreams() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=8703224471b8663013b89126bc19d28d&file=querying_with_streams.bal",
+                "https://play.ballerina.io/?gist=71ccd79df87a5d9cbb0954ac3da0b9a1&file=querying_with_streams.bal",
                 "_blank"
               );
             }}

@@ -107,7 +107,7 @@ export default function Identity() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=0de03d99988c6a42007d35606d3b70bf&file=identity.bal",
+                "https://play.ballerina.io/?gist=d50b06ef4dc45173cf8087a6fe8014f6&file=identity.bal",
                 "_blank"
               );
             }}

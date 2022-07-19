@@ -80,7 +80,7 @@ export default function RabbitmqConsumerWithClientAcknowledgement() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerinax/rabbitmq/latest">
+        <a href="https://lib.ballerina.io/ballerinax/rabbitmq/latest">
           RabbitMQ module
         </a>
         .

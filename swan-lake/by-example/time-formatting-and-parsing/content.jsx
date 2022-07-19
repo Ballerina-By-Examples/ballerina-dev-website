@@ -94,7 +94,7 @@ export default function TimeFormattingAndParsing() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/time/latest/">
+        <a href="https://lib.ballerina.io/ballerina/time/latest/">
           Time module
         </a>
         .
@@ -118,7 +118,7 @@ export default function TimeFormattingAndParsing() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=2a98687cffd197a888f63a20470047b4&file=time_formatting_and_parsing.bal",
+                "https://play.ballerina.io/?gist=76b9e5a4b6024eefa895f96d0337ec00&file=time_formatting_and_parsing.bal",
                 "_blank"
               );
             }}

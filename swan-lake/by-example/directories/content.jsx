@@ -83,7 +83,7 @@ export default function Directories() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/file/latest/">
+        <a href="https://lib.ballerina.io/ballerina/file/latest/">
           File module
         </a>
         .
@@ -107,7 +107,7 @@ export default function Directories() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=d8aa2815143f893ac979efb6f380d2ea&file=directories.bal",
+                "https://play.ballerina.io/?gist=50b3253c21ebb4562fc3d5fdf4b31d96&file=directories.bal",
                 "_blank"
               );
             }}

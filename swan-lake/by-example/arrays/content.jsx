@@ -89,7 +89,7 @@ export default function Arrays() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=c0cc75fe0c80b12278fc839e6c78bceb&file=arrays.bal",
+                "https://play.ballerina.io/?gist=ce46d12e33efa299049a46b021cf7163&file=arrays.bal",
                 "_blank"
               );
             }}

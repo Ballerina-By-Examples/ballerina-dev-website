@@ -22,7 +22,7 @@ public function main() returns error? {
     nats:Client natsClient = check new(nats:DEFAULT_URL,
 
         // To secure the client connections using username/password authentication, provide the credentials
-        // with the [\`nats:Credentials\`](https://docs.central.ballerina.io/ballerinax/nats/latest/records/Credentials) record.
+        // with the [\`nats:Credentials\`](https://lib.ballerina.io/ballerinax/nats/latest/records/Credentials) record.
         auth = {
              username: "alice",
              password: "alice@123"
@@ -30,7 +30,7 @@ public function main() returns error? {
 
         // To secure the client connection using TLS/SSL, the client needs to be configured with
         // a certificate file of the server.
-        // The [\`nats:SecureSocket\`](https://docs.central.ballerina.io/ballerinax/nats/latest/records/SecureSocket)
+        // The [\`nats:SecureSocket\`](https://lib.ballerina.io/ballerinax/nats/latest/records/SecureSocket)
         // record provides the SSL-related configurations of the client.
         secureSocket = {
             cert: "../resource/path/to/public.crt"
@@ -53,7 +53,7 @@ import ballerinax/nats;
 listener nats:Listener securedEP = new(nats:DEFAULT_URL,
 
     // To secure the client connections using username/password authentication, provide the credentials
-    // with the [\`nats:Credentials\`](https://docs.central.ballerina.io/ballerinax/nats/latest/records/Credentials) record.
+    // with the [\`nats:Credentials\`](https://lib.ballerina.io/ballerinax/nats/latest/records/Credentials) record.
     auth = {
          username: "alice",
          password: "alice@123"
@@ -61,7 +61,7 @@ listener nats:Listener securedEP = new(nats:DEFAULT_URL,
 
     // To secure the client connection using TLS/SSL, the client needs to be configured with
     // a certificate file of the server.
-    // The [\`nats:SecureSocket\`](https://docs.central.ballerina.io/ballerinax/nats/latest/records/SecureSocket)
+    // The [\`nats:SecureSocket\`](https://lib.ballerina.io/ballerinax/nats/latest/records/SecureSocket)
     // record provides the SSL-related configurations of the client.
     secureSocket = {
         cert: "../resource/path/to/public.crt"
@@ -119,7 +119,7 @@ export default function NatsBasicSecureConnection() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerinax/nats/latest">
+        <a href="https://lib.ballerina.io/ballerinax/nats/latest">
           NATS module
         </a>
         .

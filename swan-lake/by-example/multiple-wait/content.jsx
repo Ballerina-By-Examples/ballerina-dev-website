@@ -96,7 +96,7 @@ export default function MultipleWait() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=a653dbc562d0dc8a01d4fc0c173e5cb1&file=multiple_wait.bal",
+                "https://play.ballerina.io/?gist=f40de13dd9b24ce64e16bc89e39ad7d3&file=multiple_wait.bal",
                 "_blank"
               );
             }}

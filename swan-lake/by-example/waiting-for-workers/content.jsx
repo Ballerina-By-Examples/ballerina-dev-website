@@ -84,7 +84,7 @@ export default function WaitingForWorkers() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=7e9aa59b120bbdae13de9a84959db37b&file=waiting_for_workers.bal",
+                "https://play.ballerina.io/?gist=e8cd89d4beff44ec8f77cab3342ed5f1&file=waiting_for_workers.bal",
                 "_blank"
               );
             }}

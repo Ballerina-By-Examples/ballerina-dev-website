@@ -68,10 +68,7 @@ export default function IoJson() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/io/latest/">
-          IO module
-        </a>
-        .
+        <a href="https://lib.ballerina.io/ballerina/io/latest/">IO module</a>.
       </p>
 
       <Row
@@ -92,7 +89,7 @@ export default function IoJson() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=8c8c2c2eeea9597cc72f1f6711a4811c&file=io_json.bal",
+                "https://play.ballerina.io/?gist=01ba6ba410a8620501d0becabf79ba4e&file=io_json.bal",
                 "_blank"
               );
             }}

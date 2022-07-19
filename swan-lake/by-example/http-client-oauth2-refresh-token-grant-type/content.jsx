@@ -17,7 +17,7 @@ import ballerina/io;
 
 // Defines the HTTP client to call the OAuth2 secured APIs.
 // The client is enriched with the \`Authorization: Bearer <token>\` header by
-// passing the [\`http:OAuth2RefreshTokenGrantConfig\`](https://docs.central.ballerina.io/ballerina/http/latest/records/OAuth2RefreshTokenGrantConfig) for the \`auth\` configuration of the
+// passing the [\`http:OAuth2RefreshTokenGrantConfig\`](https://lib.ballerina.io/ballerina/http/latest/records/OAuth2RefreshTokenGrantConfig) for the \`auth\` configuration of the
 // client.
 http:Client securedEP = check new("https://localhost:9090",
     auth = {
@@ -90,7 +90,7 @@ export default function HttpClientOauth2RefreshTokenGrantType() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/oauth2/latest/">
+        <a href="https://lib.ballerina.io/ballerina/oauth2/latest/">
           OAuth2 module
         </a>
         .

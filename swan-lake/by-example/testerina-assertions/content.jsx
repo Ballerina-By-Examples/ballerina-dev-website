@@ -125,7 +125,7 @@ export default function TesterinaAssertions() {
 
       <p>
         and the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/test/latest/">
+        <a href="https://lib.ballerina.io/ballerina/test/latest/">
           Test Module
         </a>
         .

@@ -121,7 +121,7 @@ export default function ErrorReporting() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=bb96d8445b9419ceb32ed7820f348410&file=error_reporting.bal",
+                "https://play.ballerina.io/?gist=c44390020fa9fa3c836e3bae66b256b5&file=error_reporting.bal",
                 "_blank"
               );
             }}

@@ -105,7 +105,7 @@ export default function ConvertingToUserDefinedType() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=d93e48d1009910b9adf662a3e9d8b5d6&file=converting_to_user_defined_type.bal",
+                "https://play.ballerina.io/?gist=d0333655dc35843374d66948b63b4ca4&file=converting_to_user_defined_type.bal",
                 "_blank"
               );
             }}

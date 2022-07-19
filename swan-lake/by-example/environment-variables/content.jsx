@@ -61,10 +61,7 @@ export default function EnvironmentVariables() {
 
       <p>
         For more information on the underlying module, see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/os/latest/">
-          OS module
-        </a>
-        .
+        <a href="https://lib.ballerina.io/ballerina/os/latest/">OS module</a>.
       </p>
 
       <Row
@@ -85,7 +82,7 @@ export default function EnvironmentVariables() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=d56547b2ad4580e154d8523175f1da85&file=environment_variables.bal",
+                "https://play.ballerina.io/?gist=8e0a756496d797eedc6bc6bb7a91db2b&file=environment_variables.bal",
                 "_blank"
               );
             }}

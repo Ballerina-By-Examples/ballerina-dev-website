@@ -94,7 +94,7 @@ export default function UuidOperations() {
 
       <p>
         For more information on the underlying module, see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/uuid/latest/">
+        <a href="https://lib.ballerina.io/ballerina/uuid/latest/">
           UUID module
         </a>
         .
@@ -118,7 +118,7 @@ export default function UuidOperations() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=910f3ea237ce51111ef49a42bb3d70a9&file=uuid_operations.bal",
+                "https://play.ballerina.io/?gist=5bd4c8b704c94304a894bc627b9ccbbe&file=uuid_operations.bal",
                 "_blank"
               );
             }}

@@ -109,7 +109,7 @@ export default function JoinClause() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=510d4f60d34afaf897eaccf876825921&file=join_clause.bal",
+                "https://play.ballerina.io/?gist=b550dd0c8eb00049982442976be95e24&file=join_clause.bal",
                 "_blank"
               );
             }}

@@ -25,7 +25,7 @@ listener http:Listener securedEP = new(9090,
 
 // The service can be secured with JWT Auth and can be authorized
 // optionally. JWT Auth can be enabled by setting the
-// [\`http:JwtValidatorConfig\`](https://docs.central.ballerina.io/ballerina/http/latest/records/JwtValidatorConfig) configurations.
+// [\`http:JwtValidatorConfig\`](https://lib.ballerina.io/ballerina/http/latest/records/JwtValidatorConfig) configurations.
 // Authorization is based on scopes. A scope maps to one or more groups.
 // Authorization can be enabled by setting the \`string|string[]\` type
 // configurations for \`scopes\` field.
@@ -122,10 +122,7 @@ export default function HttpServiceJwtAuth() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/jwt/latest/">
-          JWT module
-        </a>
-        .
+        <a href="https://lib.ballerina.io/ballerina/jwt/latest/">JWT module</a>.
       </p>
 
       <Row

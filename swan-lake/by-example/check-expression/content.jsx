@@ -95,7 +95,7 @@ export default function CheckExpression() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=2deddb31a1f77ec46f1863fd2eb49a0f&file=check_expression.bal",
+                "https://play.ballerina.io/?gist=fc30fdfc54739c5eafb743bc55e252da&file=check_expression.bal",
                 "_blank"
               );
             }}

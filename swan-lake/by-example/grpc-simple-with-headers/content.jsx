@@ -116,7 +116,7 @@ export default function GrpcSimpleWithHeaders() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/grpc/latest/">
+        <a href="https://lib.ballerina.io/ballerina/grpc/latest/">
           GRPC module
         </a>
         .

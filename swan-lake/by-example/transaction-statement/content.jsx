@@ -102,7 +102,7 @@ export default function TransactionStatement() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=6e228895c9cbb0b1fd829f15ed3a231c&file=transaction_statement.bal",
+                "https://play.ballerina.io/?gist=eb74982ab05967579551d9d339273808&file=transaction_statement.bal",
                 "_blank"
               );
             }}

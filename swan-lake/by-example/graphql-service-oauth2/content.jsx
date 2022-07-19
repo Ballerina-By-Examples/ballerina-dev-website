@@ -125,7 +125,7 @@ export default function GraphqlServiceOauth2() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/oauth2/latest/">
+        <a href="https://lib.ballerina.io/ballerina/oauth2/latest/">
           OAuth2 module
         </a>
         .

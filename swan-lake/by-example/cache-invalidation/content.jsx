@@ -93,7 +93,7 @@ export default function CacheInvalidation() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/cache/latest/">
+        <a href="https://lib.ballerina.io/ballerina/cache/latest/">
           Cache module
         </a>
         .
@@ -117,7 +117,7 @@ export default function CacheInvalidation() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=49e3d04543308ba3683145aaf2a42463&file=cache_invalidation.bal",
+                "https://play.ballerina.io/?gist=720131e72f8408341cc760377f732543&file=cache_invalidation.bal",
                 "_blank"
               );
             }}

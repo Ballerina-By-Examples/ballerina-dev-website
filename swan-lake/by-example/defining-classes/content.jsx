@@ -106,7 +106,7 @@ export default function DefiningClasses() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=fb790c3a9eac85a3ddf782bdf338fece&file=defining_classes.bal",
+                "https://play.ballerina.io/?gist=a759ed0c88408356a297a5b9b04001b4&file=defining_classes.bal",
                 "_blank"
               );
             }}

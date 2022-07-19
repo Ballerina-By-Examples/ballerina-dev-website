@@ -93,7 +93,7 @@ export default function NatsStreamingPubSub() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerinax/stan/latest">
+        <a href="https://lib.ballerina.io/ballerinax/stan/latest">
           STAN module
         </a>
         .

@@ -101,7 +101,7 @@ export default function Unions() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=af45659b4f239aae2b818576b438f90b&file=unions.bal",
+                "https://play.ballerina.io/?gist=5487e3951c588fe9522790e477ae7e97&file=unions.bal",
                 "_blank"
               );
             }}

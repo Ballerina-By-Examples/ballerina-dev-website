@@ -111,7 +111,7 @@ export default function IgnoringReturnValuesAndErrors() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=b648161e5a3ea9624653c53e8ffa9537&file=ignoring_return_values_and_errors.bal",
+                "https://play.ballerina.io/?gist=43092abeb255955f60e709e32b8ba765&file=ignoring_return_values_and_errors.bal",
                 "_blank"
               );
             }}

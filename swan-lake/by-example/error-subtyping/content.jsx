@@ -107,7 +107,7 @@ export default function ErrorSubtyping() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=45e01cb9cfcfd4f476b268d7b865b48f&file=error_subtyping.bal",
+                "https://play.ballerina.io/?gist=815b8d129408792ea2436fd1d6bbf59c&file=error_subtyping.bal",
                 "_blank"
               );
             }}

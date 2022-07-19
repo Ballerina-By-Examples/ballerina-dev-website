@@ -91,7 +91,7 @@ export default function Annotations() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=c19e5e4e44f9fdb07e5feaf27b16f12c&file=annotations.bal",
+                "https://play.ballerina.io/?gist=ca49c077b1431c238b78998a6126e8ef&file=annotations.bal",
                 "_blank"
               );
             }}

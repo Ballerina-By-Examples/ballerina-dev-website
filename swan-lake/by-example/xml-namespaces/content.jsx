@@ -75,7 +75,7 @@ export default function XmlNamespaces() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=10e1de2c069a0b93b410d6d3358b78fd&file=xml_namespaces.bal",
+                "https://play.ballerina.io/?gist=cbe12c139510ee54fc7dbf072c261e39&file=xml_namespaces.bal",
                 "_blank"
               );
             }}

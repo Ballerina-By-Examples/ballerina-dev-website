@@ -96,7 +96,7 @@ export default function Nil() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=910df8f8ce5dda80b8490de811fe29d0&file=nil.bal",
+                "https://play.ballerina.io/?gist=7c786043e97afcd93bf9d8c94bf6c644&file=nil.bal",
                 "_blank"
               );
             }}

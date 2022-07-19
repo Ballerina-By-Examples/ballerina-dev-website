@@ -95,7 +95,7 @@ export default function Enumerations() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=45ede9da19dfc8620655a73959f26720&file=enumerations.bal",
+                "https://play.ballerina.io/?gist=7a5c5594898fb8672fcfb54439f22140&file=enumerations.bal",
                 "_blank"
               );
             }}

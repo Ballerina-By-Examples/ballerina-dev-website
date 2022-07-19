@@ -102,7 +102,7 @@ export default function OpenRecords() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=403c3b0b70df7ce4ededfb1bf7e79d62&file=open_records.bal",
+                "https://play.ballerina.io/?gist=ba68b8c592695cd4639176793d673344&file=open_records.bal",
                 "_blank"
               );
             }}

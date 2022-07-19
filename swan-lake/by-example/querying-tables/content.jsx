@@ -101,7 +101,7 @@ export default function QueryingTables() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=2d385e9f956de752305b6f2ddc36ca02&file=querying_tables.bal",
+                "https://play.ballerina.io/?gist=f4960c8a2ceda51e32977ebd9200236a&file=querying_tables.bal",
                 "_blank"
               );
             }}

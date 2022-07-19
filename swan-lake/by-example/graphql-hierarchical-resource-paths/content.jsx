@@ -92,7 +92,7 @@ export default function GraphqlHierarchicalResourcePaths() {
       <p>For more information on the underlying package, see the</p>
 
       <p>
-        <a href="https://docs.central.ballerina.io/ballerina/graphql/latest/">
+        <a href="https://lib.ballerina.io/ballerina/graphql/latest/">
           GraphQL package
         </a>
         .&lt;br/&gt;&lt;br/&gt;

@@ -123,7 +123,7 @@ export default function Rollback() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=7d57484133163252835ddeb69aec4156&file=rollback.bal",
+                "https://play.ballerina.io/?gist=adf94fdfc15f0d2645c5fb10a9f14486&file=rollback.bal",
                 "_blank"
               );
             }}

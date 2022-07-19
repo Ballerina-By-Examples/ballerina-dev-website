@@ -63,10 +63,7 @@ export default function Logging() {
 
       <p>
         For more information on the underlying module, see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/log/latest/">
-          Log module
-        </a>
-        .
+        <a href="https://lib.ballerina.io/ballerina/log/latest/">Log module</a>.
       </p>
 
       <Row
@@ -87,7 +84,7 @@ export default function Logging() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=4c5d7c2a86eb089944579be5598a7980&file=logging.bal",
+                "https://play.ballerina.io/?gist=fb1f637878ed5d3a03d10ff6fcdd9247&file=logging.bal",
                 "_blank"
               );
             }}

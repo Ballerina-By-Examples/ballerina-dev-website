@@ -94,7 +94,7 @@ export default function BinaryData() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=4ed446ca13962ad6d671292cbece6837&file=binary_data.bal",
+                "https://play.ballerina.io/?gist=e93948dfc849dd97e306943add8dd3c5&file=binary_data.bal",
                 "_blank"
               );
             }}

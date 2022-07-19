@@ -77,10 +77,7 @@ export default function UdpListener() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/udp/latest">
-          UDP module
-        </a>
-        .
+        <a href="https://lib.ballerina.io/ballerina/udp/latest">UDP module</a>.
       </p>
 
       <Row

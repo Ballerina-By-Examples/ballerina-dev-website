@@ -20,7 +20,7 @@ service /sample on new http:Listener(9090) {
     // request URI.
     resource function get path/[string foo](http:Request req) returns json {
 
-        // Gets the [MatrixParams](https://docs.central.ballerina.io/ballerina/http/latest/classes/Request#getMatrixParams).
+        // Gets the [MatrixParams](https://lib.ballerina.io/ballerina/http/latest/classes/Request#getMatrixParams).
         map<any> pathMParams = req.getMatrixParams("/sample/path");
         var a = <string>pathMParams["a"];
         var b = <string>pathMParams["b"];
@@ -78,7 +78,7 @@ export default function HttpMatrixParam() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/http/latest/">
+        <a href="https://lib.ballerina.io/ballerina/http/latest/">
           HTTP module
         </a>
         .

@@ -126,7 +126,7 @@ export default function InferringIsolated() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=25b71ad95eebcd89422f283016ecec45&file=inferring_isolated.bal",
+                "https://play.ballerina.io/?gist=edb4a2311f9fe96d2027754c768ed596&file=inferring_isolated.bal",
                 "_blank"
               );
             }}

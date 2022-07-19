@@ -137,7 +137,7 @@ export default function IsolatedObjects() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=64eb676f1a42f5e49684a12422da3416&file=isolated_objects.bal",
+                "https://play.ballerina.io/?gist=f59c2ce2941ca0bf6f7cb9366557777c&file=isolated_objects.bal",
                 "_blank"
               );
             }}

@@ -78,7 +78,7 @@ export default function FloatingPointNumbers() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=b8ef3c488671bc8a44b7eb246ad2c4d8&file=floating_point_numbers.bal",
+                "https://play.ballerina.io/?gist=f12b9e4ef81e075e4aa8d9f16894ccff&file=floating_point_numbers.bal",
                 "_blank"
               );
             }}

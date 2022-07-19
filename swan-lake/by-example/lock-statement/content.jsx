@@ -89,7 +89,7 @@ export default function LockStatement() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=ee0ef507483bf12c56ba67c7d5bb1198&file=lock_statement.bal",
+                "https://play.ballerina.io/?gist=93c4189dea2ee6307ad79bbc23df65dc&file=lock_statement.bal",
                 "_blank"
               );
             }}

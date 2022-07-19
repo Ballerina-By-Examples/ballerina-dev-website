@@ -109,7 +109,7 @@ export default function InterWorkerFailurePropagation() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=d859a77ba1f545f44bf07d8ec0efc7b9&file=inter_worker_failure_propagation.bal",
+                "https://play.ballerina.io/?gist=427fc073e4dcba86a4c5d13058438b8a&file=inter_worker_failure_propagation.bal",
                 "_blank"
               );
             }}

@@ -88,7 +88,7 @@ export default function TaskOneTimeJobExecution() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/task/latest/">
+        <a href="https://lib.ballerina.io/ballerina/task/latest/">
           Task module
         </a>
         .
@@ -112,7 +112,7 @@ export default function TaskOneTimeJobExecution() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=cd00a21b7184fc2800ae7a1fb97741c4&file=task_one_time_job_execution.bal",
+                "https://play.ballerina.io/?gist=a7ba5adeecbd9a1f7add2746ed075d31&file=task_one_time_job_execution.bal",
                 "_blank"
               );
             }}

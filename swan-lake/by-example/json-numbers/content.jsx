@@ -134,7 +134,7 @@ export default function JsonNumbers() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=47b882fad666a2ce70c8cae44cc17860&file=json_numbers.bal",
+                "https://play.ballerina.io/?gist=2572cc5f0bb1dab0b5a2a140f423177c&file=json_numbers.bal",
                 "_blank"
               );
             }}

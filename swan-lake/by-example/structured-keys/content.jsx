@@ -90,7 +90,7 @@ export default function StructuredKeys() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=d6a92e59e5db65eee3ff7fb057290ab5&file=structured_keys.bal",
+                "https://play.ballerina.io/?gist=8e1181fd02b282c640143d07d6427f28&file=structured_keys.bal",
                 "_blank"
               );
             }}

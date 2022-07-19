@@ -92,7 +92,7 @@ export default function TypeInference() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=0e625b27f2c1da094c64e2c5f89e1963&file=type_inference.bal",
+                "https://play.ballerina.io/?gist=a14df50ac15e57d35484926864f21a01&file=type_inference.bal",
                 "_blank"
               );
             }}

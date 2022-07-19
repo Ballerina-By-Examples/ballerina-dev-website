@@ -99,7 +99,7 @@ export default function ConvertingFromJsonToUserDefinedType() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=c8c8106193266d2c5a816233119ea31e&file=converting_from_json_to_user_defined_type.bal",
+                "https://play.ballerina.io/?gist=a85989358a43a31cf5b9e390e2a8596d&file=converting_from_json_to_user_defined_type.bal",
                 "_blank"
               );
             }}

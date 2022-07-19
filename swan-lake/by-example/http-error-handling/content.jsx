@@ -125,7 +125,7 @@ export default function HttpErrorHandling() {
 
       <p>
         For more information, see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/http/latest/">
+        <a href="https://lib.ballerina.io/ballerina/http/latest/">
           HTTP module
         </a>
         .

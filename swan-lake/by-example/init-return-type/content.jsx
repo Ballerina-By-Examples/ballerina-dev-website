@@ -100,7 +100,7 @@ export default function InitReturnType() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=32d5b69f49cffab86e36620b760d41c2&file=init_return_type.bal",
+                "https://play.ballerina.io/?gist=7bbdf0c98b990deaceab01fa1e2f4f7d&file=init_return_type.bal",
                 "_blank"
               );
             }}

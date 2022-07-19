@@ -57,7 +57,7 @@ export default function RandomNumbers() {
 
       <p>
         For more information on the underlying module, see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/random/latest/">
+        <a href="https://lib.ballerina.io/ballerina/random/latest/">
           Random module
         </a>
         .
@@ -81,7 +81,7 @@ export default function RandomNumbers() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=ebc27b4a14e1cadfacb7dfa8eb998e41&file=random_numbers.bal",
+                "https://play.ballerina.io/?gist=0114747a7ea8200f56997e3aecc8296b&file=random_numbers.bal",
                 "_blank"
               );
             }}

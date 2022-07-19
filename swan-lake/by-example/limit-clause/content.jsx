@@ -89,7 +89,7 @@ export default function LimitClause() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=2af2ec2741e63e34dd11cd11c4ac9663&file=limit_clause.bal",
+                "https://play.ballerina.io/?gist=b771a43424596a96bb04912a225129f2&file=limit_clause.bal",
                 "_blank"
               );
             }}

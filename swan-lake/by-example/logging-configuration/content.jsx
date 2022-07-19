@@ -54,10 +54,7 @@ export default function LoggingConfiguration() {
 
       <p>
         For more information on the underlying module, see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/log/latest/">
-          Log module
-        </a>
-        .
+        <a href="https://lib.ballerina.io/ballerina/log/latest/">Log module</a>.
       </p>
 
       <Row

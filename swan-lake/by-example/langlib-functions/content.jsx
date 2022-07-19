@@ -92,7 +92,7 @@ export default function LanglibFunctions() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=171b6269581f2b9c1aa04962d9794ad4&file=langlib_functions.bal",
+                "https://play.ballerina.io/?gist=53499ad2f2731abdc9ea030ce11f537c&file=langlib_functions.bal",
                 "_blank"
               );
             }}

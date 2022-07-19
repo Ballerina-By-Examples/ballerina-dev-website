@@ -90,7 +90,7 @@ export default function ModuleLifecycle() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=6ee9edaad15a7f2e1e6bf9455350db39&file=module_lifecycle.bal",
+                "https://play.ballerina.io/?gist=433b28d97297e8fca763220644b7abb6&file=module_lifecycle.bal",
                 "_blank"
               );
             }}

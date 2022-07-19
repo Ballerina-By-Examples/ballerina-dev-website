@@ -97,7 +97,7 @@ export default function FunctionValues() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=1ee4c2653719487fca776f1a9d2961a2&file=function_values.bal",
+                "https://play.ballerina.io/?gist=27fd238406eb17d334a39456ac128f15&file=function_values.bal",
                 "_blank"
               );
             }}

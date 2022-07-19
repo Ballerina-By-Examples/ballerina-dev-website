@@ -89,7 +89,7 @@ export default function XmlnsDeclarations() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=b87634d914828e0b4b92a4ba1ab90685&file=xmlns_declarations.bal",
+                "https://play.ballerina.io/?gist=1b70c2830b49c115fb1c922ec22ee890&file=xmlns_declarations.bal",
                 "_blank"
               );
             }}

@@ -97,7 +97,7 @@ export default function ControllingOpenness() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=fd6f682c822da9596118a0af6cda14b8&file=controlling_openness.bal",
+                "https://play.ballerina.io/?gist=ab11f6bc195adc591e67fbc45ec68605&file=controlling_openness.bal",
                 "_blank"
               );
             }}

@@ -150,7 +150,7 @@ export default function XmlDataModel() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=5b05b9d3b36a6549da881f1c0eea5c62&file=xml_data_model.bal",
+                "https://play.ballerina.io/?gist=7726266e3328df10a8e67041e66cb589&file=xml_data_model.bal",
                 "_blank"
               );
             }}

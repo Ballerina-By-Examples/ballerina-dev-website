@@ -101,7 +101,7 @@ export default function ReadonlyType() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=d182bb8b421f99ff48f846d6a9b966a5&file=readonly_type.bal",
+                "https://play.ballerina.io/?gist=ea1cbc56750580cba08f14d527ebc20d&file=readonly_type.bal",
                 "_blank"
               );
             }}

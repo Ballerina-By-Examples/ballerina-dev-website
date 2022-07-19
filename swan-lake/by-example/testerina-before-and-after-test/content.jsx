@@ -86,7 +86,7 @@ export default function TesterinaBeforeAndAfterTest() {
 
       <p>
         and the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/test/latest/">
+        <a href="https://lib.ballerina.io/ballerina/test/latest/">
           Test Module
         </a>
         .

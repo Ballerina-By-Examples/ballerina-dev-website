@@ -21,7 +21,7 @@ function hash() returns error? {
     string value = "Hello Ballerina!";
     byte[] input = value.toBytes();
 
-    // Hashing input value using the [MD5 hashing algorithm](https://docs.central.ballerina.io/ballerina/crypto/latest/functions#hashMd5), and printing the hash value using the Hex encoding.
+    // Hashing input value using the [MD5 hashing algorithm](https://lib.ballerina.io/ballerina/crypto/latest/functions#hashMd5), and printing the hash value using the Hex encoding.
     byte[] output = crypto:hashMd5(input);
     io:println("Hex encoded hash with MD5: " + output.toBase16());
 
@@ -280,7 +280,7 @@ export default function SecurityCrypto() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/crypto/latest/">
+        <a href="https://lib.ballerina.io/ballerina/crypto/latest/">
           Crypto module
         </a>
         .

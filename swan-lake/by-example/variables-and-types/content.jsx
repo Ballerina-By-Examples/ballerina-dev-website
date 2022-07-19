@@ -78,7 +78,7 @@ export default function VariablesAndTypes() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=a58e2255addf09c6b21b400681809ef9&file=variables_and_types.bal",
+                "https://play.ballerina.io/?gist=b478f794b4c2156e029860ce9bae2a95&file=variables_and_types.bal",
                 "_blank"
               );
             }}

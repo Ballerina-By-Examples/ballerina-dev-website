@@ -86,7 +86,7 @@ export default function CreatingTablesWithQuery() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=73045ee2ed18af9bdc89f19d523313f4&file=creating_tables_with_query.bal",
+                "https://play.ballerina.io/?gist=5a918af422ca1ca17c694ec7918b34c1&file=creating_tables_with_query.bal",
                 "_blank"
               );
             }}

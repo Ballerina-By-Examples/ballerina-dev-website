@@ -103,7 +103,7 @@ export default function NamedWorkers() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=2919f8062c923f045504a9bd2dc9dff2&file=named_workers.bal",
+                "https://play.ballerina.io/?gist=31ce9f0324b52d72d31c869d05a9207e&file=named_workers.bal",
                 "_blank"
               );
             }}

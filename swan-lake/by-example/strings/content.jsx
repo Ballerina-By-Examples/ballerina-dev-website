@@ -95,7 +95,7 @@ export default function Strings() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=47cdc54e859c8de92714a53219f7339e&file=strings.bal",
+                "https://play.ballerina.io/?gist=4d92ec03e33ec6b4b06b243b8110a255&file=strings.bal",
                 "_blank"
               );
             }}

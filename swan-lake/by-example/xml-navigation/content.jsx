@@ -110,7 +110,7 @@ export default function XmlNavigation() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=f579e45af3f35ebc73d21a37f58fd631&file=xml_navigation.bal",
+                "https://play.ballerina.io/?gist=29e9dbc384fd405dff3037efa01e0f00&file=xml_navigation.bal",
                 "_blank"
               );
             }}

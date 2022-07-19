@@ -113,7 +113,7 @@ export default function CommitRollbackHandlers() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=16df294bd2c77582e6a0f0d601b80f1b&file=commit_rollback_handlers.bal",
+                "https://play.ballerina.io/?gist=82b932719705c0824a064947df9fae46&file=commit_rollback_handlers.bal",
                 "_blank"
               );
             }}

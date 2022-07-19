@@ -107,7 +107,7 @@ export default function BacktickTemplates() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=1e1beddae5d1fabd2d29806f1168ad25&file=backtick_templates.bal",
+                "https://play.ballerina.io/?gist=9d81fbc57cbdfbc0174dc1dd2da3bff7&file=backtick_templates.bal",
                 "_blank"
               );
             }}

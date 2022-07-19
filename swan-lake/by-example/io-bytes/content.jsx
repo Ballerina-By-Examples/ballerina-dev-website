@@ -70,10 +70,7 @@ export default function IoBytes() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/io/latest/">
-          IO module
-        </a>
-        .
+        <a href="https://lib.ballerina.io/ballerina/io/latest/">IO module</a>.
       </p>
 
       <Row

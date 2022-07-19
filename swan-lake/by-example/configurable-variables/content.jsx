@@ -86,7 +86,7 @@ export default function ConfigurableVariables() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=999e5259dac6e297f9332cfc04c40155&file=configurable_variables.bal",
+                "https://play.ballerina.io/?gist=d62f5cc1c914099119720068989eca15&file=configurable_variables.bal",
                 "_blank"
               );
             }}

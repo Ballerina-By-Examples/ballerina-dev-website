@@ -93,7 +93,7 @@ export default function LetClause() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=81c5a3016c616327376a54ae6f94a3bf&file=let_clause.bal",
+                "https://play.ballerina.io/?gist=79c66662c761c099ddbd8741014e8d8a&file=let_clause.bal",
                 "_blank"
               );
             }}

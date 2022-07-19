@@ -64,7 +64,7 @@ export default function TempFilesDirectories() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/file/latest/">
+        <a href="https://lib.ballerina.io/ballerina/file/latest/">
           File module
         </a>
         .
@@ -88,7 +88,7 @@ export default function TempFilesDirectories() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=8926de2b77d643e8a398fce8e52aa30b&file=temp_files_directories.bal",
+                "https://play.ballerina.io/?gist=2b27c7457a780dea50fab6dd055b9e21&file=temp_files_directories.bal",
                 "_blank"
               );
             }}

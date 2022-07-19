@@ -86,7 +86,7 @@ export default function TaskFrequencyJobExecution() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/task/latest/">
+        <a href="https://lib.ballerina.io/ballerina/task/latest/">
           Task module
         </a>
         .
@@ -110,7 +110,7 @@ export default function TaskFrequencyJobExecution() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=955e121edb328c8e08efda672aab551a&file=task_frequency_job_execution.bal",
+                "https://play.ballerina.io/?gist=a90123f8aa5735b7d11101e670216893&file=task_frequency_job_execution.bal",
                 "_blank"
               );
             }}

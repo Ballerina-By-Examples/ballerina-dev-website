@@ -76,7 +76,7 @@ export default function CacheBasics() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/cache/latest/">
+        <a href="https://lib.ballerina.io/ballerina/cache/latest/">
           Cache module
         </a>
         .
@@ -100,7 +100,7 @@ export default function CacheBasics() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=ac49e3709aec9bbd9f1aae4e1a283484&file=cache_basics.bal",
+                "https://play.ballerina.io/?gist=746b8c4a31231d11fc8bc0a610013c60&file=cache_basics.bal",
                 "_blank"
               );
             }}

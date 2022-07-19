@@ -105,7 +105,7 @@ export default function WorkingDirectlyWithJson() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=6068799c5cdb8aea3e86c524799cdd48&file=working_directly_with_json.bal",
+                "https://play.ballerina.io/?gist=3f22bba954c4093317689fabb559a90b&file=working_directly_with_json.bal",
                 "_blank"
               );
             }}

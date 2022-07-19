@@ -102,7 +102,7 @@ export default function DestructuringRecords() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=0de3ac398f23eed2f2de53f8ee86dc3c&file=destructuring_records.bal",
+                "https://play.ballerina.io/?gist=76192961b3aa52bc2d2f42a1d92f297c&file=destructuring_records.bal",
                 "_blank"
               );
             }}

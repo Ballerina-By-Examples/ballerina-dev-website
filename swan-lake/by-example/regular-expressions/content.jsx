@@ -80,7 +80,7 @@ export default function RegularExpressions() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/regex/latest/">
+        <a href="https://lib.ballerina.io/ballerina/regex/latest/">
           Regex module
         </a>
         .
@@ -104,7 +104,7 @@ export default function RegularExpressions() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=06cfe1c2ac850f88288bb2041af4afb2&file=regular_expressions.bal",
+                "https://play.ballerina.io/?gist=133f4ed1bc293e9ef287e3de03c96f38&file=regular_expressions.bal",
                 "_blank"
               );
             }}

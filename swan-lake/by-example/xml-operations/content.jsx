@@ -144,7 +144,7 @@ export default function XmlOperations() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=f98fa74b764f88db516d4bcf333874f4&file=xml_operations.bal",
+                "https://play.ballerina.io/?gist=7365520d0efc509121213c681ba96017&file=xml_operations.bal",
                 "_blank"
               );
             }}

@@ -20,7 +20,7 @@ public function main() returns error? {
     xml sourceXml = getXml();
     // Gets an \`XSL\` style sheet represented in an XML value.
     xml xsl = getXsl();
-    // [Transforms](https://docs.central.ballerina.io/ballerina/xslt/latest/functions#transform) the \`XML\` content to another format.
+    // [Transforms](https://lib.ballerina.io/ballerina/xslt/latest/functions#transform) the \`XML\` content to another format.
     xml target = check xslt:transform(sourceXml, xsl);
     
     io:println("Transformed XML: ", target);
@@ -109,7 +109,7 @@ export default function XsltTransformation() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/xslt/latest/">
+        <a href="https://lib.ballerina.io/ballerina/xslt/latest/">
           XSLT module
         </a>
         .
@@ -133,7 +133,7 @@ export default function XsltTransformation() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=14394b0e9914187063c3f5027841cbe0&file=xslt_transformation.bal",
+                "https://play.ballerina.io/?gist=c7547d317c6eb0bcac9ed864b43973d9&file=xslt_transformation.bal",
                 "_blank"
               );
             }}

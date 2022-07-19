@@ -105,7 +105,7 @@ export default function StreamType() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=fcf71317ea4092616a3d87c4786c1c18&file=stream_type.bal",
+                "https://play.ballerina.io/?gist=87e6fe125c96dac93bebf80ea4fd3503&file=stream_type.bal",
                 "_blank"
               );
             }}

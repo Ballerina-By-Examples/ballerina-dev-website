@@ -104,7 +104,7 @@ export default function JsonType() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=2a1be0180a92c6ac7f5f504d8219a70c&file=json_type.bal",
+                "https://play.ballerina.io/?gist=69b3881583832d762f1b0e4f12cfeb80&file=json_type.bal",
                 "_blank"
               );
             }}

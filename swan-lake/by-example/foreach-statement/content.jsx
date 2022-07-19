@@ -95,7 +95,7 @@ export default function ForeachStatement() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=9be08d96609996a710f93ad60e40da63&file=foreach_statement.bal",
+                "https://play.ballerina.io/?gist=c3ddfd294552a267b73c209b8681d634&file=foreach_statement.bal",
                 "_blank"
               );
             }}

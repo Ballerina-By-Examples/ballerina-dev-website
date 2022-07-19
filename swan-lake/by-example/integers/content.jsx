@@ -80,7 +80,7 @@ export default function Integers() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=304ef6d10478fb06b30680eb5c69ba59&file=integers.bal",
+                "https://play.ballerina.io/?gist=fe4c8012dd9306c750df5d20b781f451&file=integers.bal",
                 "_blank"
               );
             }}

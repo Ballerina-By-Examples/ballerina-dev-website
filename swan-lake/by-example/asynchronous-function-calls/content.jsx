@@ -92,7 +92,7 @@ export default function AsynchronousFunctionCalls() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=a26601d2626741c67302e75db6ee0daa&file=asynchronous_function_calls.bal",
+                "https://play.ballerina.io/?gist=3cc99223e723bdfae9c2c81cc2ae4a66&file=asynchronous_function_calls.bal",
                 "_blank"
               );
             }}

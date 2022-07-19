@@ -93,7 +93,7 @@ export default function Panics() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=47e0c0010fc9a237943660c2b99c3bc0&file=panics.bal",
+                "https://play.ballerina.io/?gist=dedf922f55e78327fdd16ee33cb7f162&file=panics.bal",
                 "_blank"
               );
             }}

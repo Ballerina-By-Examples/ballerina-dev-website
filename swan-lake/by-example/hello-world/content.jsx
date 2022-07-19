@@ -65,7 +65,7 @@ export default function HelloWorld() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=c45c215824439cf40658dd58ce079785&file=hello_world.bal",
+                "https://play.ballerina.io/?gist=4a966779e377595b4994cdef711d74d8&file=hello_world.bal",
                 "_blank"
               );
             }}

@@ -129,7 +129,7 @@ export default function IsolatedFunctions() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=82a83b4a6fdb06d09f7cbe2372af9546&file=isolated_functions.bal",
+                "https://play.ballerina.io/?gist=0d2b37414caa26c754043bca947f99cf&file=isolated_functions.bal",
                 "_blank"
               );
             }}

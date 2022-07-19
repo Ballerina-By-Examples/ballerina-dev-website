@@ -73,7 +73,7 @@ export default function XmlJsonConversion() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/xmldata/latest/">
+        <a href="https://lib.ballerina.io/ballerina/xmldata/latest/">
           xmldata module
         </a>
         .
@@ -97,7 +97,7 @@ export default function XmlJsonConversion() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=c1186df41a1e1544db6493b5c11fc9f0&file=xml_json_conversion.bal",
+                "https://play.ballerina.io/?gist=c9694b38bc2ca860491d46813dd5061f&file=xml_json_conversion.bal",
                 "_blank"
               );
             }}

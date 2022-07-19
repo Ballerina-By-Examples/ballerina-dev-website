@@ -137,7 +137,7 @@ export default function CombiningIsolatedFunctionsAndLock() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=17adb54e86c3ba37f09431f7d914dc18&file=combining_isolated_functions_and_lock.bal",
+                "https://play.ballerina.io/?gist=2d49732358b8a51b3fb8dfc6cd5fdc29&file=combining_isolated_functions_and_lock.bal",
                 "_blank"
               );
             }}

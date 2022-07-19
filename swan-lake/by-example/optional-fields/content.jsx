@@ -96,7 +96,7 @@ export default function OptionalFields() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=e0879a6bb33922645eef01e0e005c623&file=optional_fields.bal",
+                "https://play.ballerina.io/?gist=0f780ff215a0c17facfff7b6c0a02958&file=optional_fields.bal",
                 "_blank"
               );
             }}

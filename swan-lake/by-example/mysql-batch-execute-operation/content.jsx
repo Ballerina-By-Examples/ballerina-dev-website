@@ -144,7 +144,7 @@ export default function MysqlBatchExecuteOperation() {
       <p>
         For a sample configuration and more information on the underlying
         module, see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerinax/mysql/latest/">
+        <a href="https://lib.ballerina.io/ballerinax/mysql/latest/">
           MySQL module
         </a>
         .

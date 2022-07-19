@@ -25,7 +25,7 @@ service HelloWorld {
 
 // Defines the gRPC client to call the Basic Auth secured APIs.
 // The client metadata is enriched with the \`Authorization: Basic <token>\`
-// header by passing the [\`grpc:CredentialsConfig\`](https://docs.central.ballerina.io/ballerina/grpc/latest/records/CredentialsConfig) for the \`auth\` configuration
+// header by passing the [\`grpc:CredentialsConfig\`](https://lib.ballerina.io/ballerina/grpc/latest/records/CredentialsConfig) for the \`auth\` configuration
 // of the client.
 HelloWorldClient securedEP = check new("https://localhost:9090",
     auth = {
@@ -92,7 +92,7 @@ export default function GrpcClientBasicAuth() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/auth/latest/">
+        <a href="https://lib.ballerina.io/ballerina/auth/latest/">
           Auth module
         </a>
         .

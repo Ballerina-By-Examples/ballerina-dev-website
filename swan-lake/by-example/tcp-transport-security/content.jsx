@@ -18,7 +18,7 @@ import ballerina/tcp;
 // An TCP client can be configured to communicate through SSL/TLS as well.
 // To secure a client using SSL/TLS, the client needs to be configured with
 // a certificate file of the listener.
-// The [\`tcp:ClientSecureSocket\`](https://docs.central.ballerina.io/ballerina/tcp/latest/records/ClientSecureSocket) record
+// The [\`tcp:ClientSecureSocket\`](https://lib.ballerina.io/ballerina/tcp/latest/records/ClientSecureSocket) record
 // provides the SSL-related configurations of the client.
 tcp:Client securedClientEP = check new("localhost", 3000,
     secureSocket = {
@@ -39,7 +39,7 @@ import ballerina/tcp;
 // An HTTP listener can be configured to communicate through SSL/TLS as well.
 // To secure a listener using SSL/TLS, the listener needs to be configured with
 // a certificate file and a private key file for the listener.
-// The [\`tcp:ListenerSecureSocket\`](https://docs.central.ballerina.io/ballerina/tcp/latest/records/ListenerSecureSocket) record
+// The [\`tcp:ListenerSecureSocket\`](https://lib.ballerina.io/ballerina/tcp/latest/records/ListenerSecureSocket) record
 // provides the SSL-related listener configurations of the listener.
 listener tcp:Listener securedListnerEP = check new(3000,
     secureSocket = {
@@ -112,10 +112,7 @@ export default function TcpTransportSecurity() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/tcp/latest">
-          TCP module
-        </a>
-        .
+        <a href="https://lib.ballerina.io/ballerina/tcp/latest">TCP module</a>.
       </p>
 
       <Row

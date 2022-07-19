@@ -111,7 +111,7 @@ export default function IsolatedMethods() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=6bde59266554708db02004e0712bd619&file=isolated_methods.bal",
+                "https://play.ballerina.io/?gist=6bfc02c45427ef2eb769920a706a4a17&file=isolated_methods.bal",
                 "_blank"
               );
             }}

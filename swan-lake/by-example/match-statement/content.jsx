@@ -114,7 +114,7 @@ export default function MatchStatement() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=4fb6dfa4eb023fa2df07b53da3347dc9&file=match_statement.bal",
+                "https://play.ballerina.io/?gist=65c7ef8bc391e25847ef4f61fdb13439&file=match_statement.bal",
                 "_blank"
               );
             }}

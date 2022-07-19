@@ -118,7 +118,7 @@ export default function ManageScheduledJobs() {
 
       <p>
         see the{" "}
-        <a href="https://docs.central.ballerina.io/ballerina/regex/latest/">
+        <a href="https://lib.ballerina.io/ballerina/regex/latest/">
           Regex module
         </a>
         .
@@ -142,7 +142,7 @@ export default function ManageScheduledJobs() {
             className="btn rounded ms-auto"
             onClick={() => {
               window.open(
-                "https://play.ballerina.io/?gist=fbb47a657d0f3aa0b3f500ef1987aa60&file=manage_scheduled_jobs.bal",
+                "https://play.ballerina.io/?gist=d0c186f44c3e4e218a0a64648488f330&file=manage_scheduled_jobs.bal",
                 "_blank"
               );
             }}
