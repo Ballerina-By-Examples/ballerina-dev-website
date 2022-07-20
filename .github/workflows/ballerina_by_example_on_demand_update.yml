@@ -1,7 +1,6 @@
-name: Create a PR for new Swan Lake BBE pages on distribution repo changes
+name: Create a PR for new Swan Lake BBE pages on demand
 
 on:
-  repository_dispatch:
   workflow_dispatch:
     inputs:
       distribution_branch:
@@ -66,7 +65,7 @@ jobs:
           git config --global user.email ${{ secrets.EMAIL }}
           git config --global user.name ${{ secrets.NAME }}
 
-          git add swan-lake/by-example
+          git add swan-lake/by-example _data/ballerina-by-example-nav.yml
           git commit --allow-empty -m 'Update Ballerina Swan Lake by Examples'
 
           git push --set-upstream origin automate-bbes-$GITHUB_SHA
